@@ -28,7 +28,15 @@
             Du må ikke bruge (.) men kun (,), hvis du giver et tal der har decimaltal i det.
           </p>
           
-          
+          <p>Bil Pris:</p>
+          <input type="text" id="car_price">
+          <select id="car_type">
+            <option value="per">Person bil</option>
+            <option value="el">El bil</option>
+          </select>
+          <input class="btn-success" type="button" value="beregn afgift" id="btn_submit"></input>
+          <br/>
+          <p id="feedback"></p>
         </div>
       </div>
     </div>
@@ -44,11 +52,11 @@
   </footer>
 
 
-
+  <script src="bundle.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="bundle.js"></script>
+ 
 </body>
 
 </html>
